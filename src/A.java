@@ -24,5 +24,9 @@ public class A
         A a = new A();
 
         a.methodOne();
+
+        String str = "Like";
+        str += " and Subscribe";
+        System.out.println(str);
     }
 }

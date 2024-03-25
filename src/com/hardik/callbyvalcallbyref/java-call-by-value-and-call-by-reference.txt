@@ -1,0 +1,8 @@
+1. Java passes the arguments both primitives and the copy of object reference by value.
+
+2. Java never passes the object itself.
+
+3. In real-time project, we pass class objects as parameters to method call in Java.
+
+4. Call by value uses copies of data, while call by reference uses memory addresses or references to the
+   actual data.

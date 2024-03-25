@@ -1,0 +1,11 @@
+Key Points
+----------------------------------------------
+1. A constructor cannot be final.
+2. A block cannot be final.
+3. A local final variable must be initialized at the time of declaration.
+4. We cannot change the value of a final variable after initialization.
+5. We cannot override a final method.
+6. A final class cannot be extended(inherited).
+7. We can create the object for a final class but cannot extend it.
+    e.g.(String class is final so we can't extend it but object can be created)
+8. If the method parameters are declared as final, the value of these parameters cannot be changed.

@@ -1,0 +1,14 @@
+Key Points:
+
+1. Static variable (also known as class variable) in Java is simply like another variable,
+   but it is common to all instances of the class.
+
+2. It can be accessed and modified by any other objects of class.
+
+3. A static variable can be directly accessed by class name within static and non-static methods of the class.
+
+4. It can be used with public and final modifiers to make constant value.
+
+5. We cannot declare a class with static keyword but the inner class can be declared as static.
+
+6.Static members get memory once when the class is loaded into the memory.

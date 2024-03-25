@@ -27,6 +27,9 @@ public class TerminalOperation {
         System.out.println("noneMatch:" + IntStream.of(25,15,75,45,65,5,40).noneMatch(i-> i > 80));
         OptionalDouble average = Arrays.stream(new int[]{10, 20, 30}).average();
         System.out.println("Avg of numbers:" + average.getAsDouble());
+        List<Integer> number = Arrays.asList(2,3,4,5);
+        int even = number.stream().filter(x->x%2==0).reduce(0,(ans,i)-> ans+i);
+        System.out.println("even = " + even);
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
         Integer integer = list.stream().reduce(Integer::sum).get();
         System.out.println(integer.intValue());
